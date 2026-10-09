@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8940ce3e62206e940a8a235f581a8943, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier: 
+  itemId: Sound
+  itemName: "Gina\u7684\u97F3\u54CD"
+  icon: {fileID: 21300000, guid: 1ee741e4a4b13a24992059c2056d4116, type: 3}
+  description: "\u6709\u4E9B\u8BB8\u7834\u65E7\u7684\u97F3\u54CD\uFF0C\u770B\u8D77\u6765\u7528\u4E86\u6709\u4E00\u5B9A\u65F6\u95F4\u4E86"
+  maxStack: 1

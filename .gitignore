@@ -1,0 +1,58 @@
+# Unity 项目标准 .gitignore
+# 参考: https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+# 核心原则:Unity 项目只需提交 Assets/、Packages/、ProjectSettings/ 三个目录,
+# 其余(Library、Temp、Logs、obj、Build 等)都是可再生成的缓存,绝不能提交。
+
+# --- 生成的大体积缓存目录 ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 内存捕获 / 录屏文件
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE 配置(不同人机器不同,不该共享)
+.vs/
+.idea/
+.vscode/
+
+# 自动生成的 VS / Rider / MonoDevelop 工程文件(Unity 每次打开都会重新生成)
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 崩溃报告
+sysinfo.txt
+
+# 构建产物
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Addressables 打包缓存
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Android 自动生成的资源
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
